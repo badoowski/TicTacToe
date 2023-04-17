@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+    height: 450px;
+    margin-top: 2rem;
+}
+
+.cell {
+    font-size: 150px;
+    background-color: black;
+    color: white;
+    height: 147px;
+    width: 147px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.score-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.score-board {
+    width: 15rem;
+    height: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+.reset-button {
+    width: 10rem;
+    height: 2rem;
+    margin-top: 2rem;
+    background-color: gold;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.disabledbutton {
+    pointer-events: none;
+}
+
+.winningdisabledbutton {
+    pointer-events: none;
+}
+
+.winner {
+    background-color: red;
+}
